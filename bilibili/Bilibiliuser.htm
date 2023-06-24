@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+<meta charset="utf-8">
+<title>bilibiliuser</title>
+</head>
+<body>
+    <h4>file server -> bilibiliuser</h4>
+  <h1>————————————————————————————————————————————</h1>
+
+    <p><a href="https://space.bilibili.com/1330268320/">him一个 UID:1330268320</a></p>
+    <p><a href="https://space.bilibili.com/1582926142">一中西南七班人 UID:1582926142</a></p>
+    <p><a href="https://space.bilibili.com/9596327">卡慕sama UID:9596327</a></p>
+    <p><a href="https://space.bilibili.com/4831263">黑猫大少爷 UID:4831263</a></p>
+    <p><a href="https://space.bilibili.com/680447">玛丽奥红叔 UID:680447</a></p>
+    <p><a href="https://space.bilibili.com/14890801">大炒面制造者Cen UID:14890801</a></p>
+    <p><a href="https://space.bilibili.com/5007752">萝卜吃米洛 UID:5007752</a></p>
+    <p><a href="https://space.bilibili.com/2170934">明月庄主 UID:2170934</a></p>
+    <p><a href="https://space.bilibili.com/163637592">老师好我叫何同学 UID:163637592</a></p>
+    <p><a href="https://space.bilibili.com/https://space.bilibili.com/19525533/">KL_qiqi UID:19525533</a></p>
+    <p><a href="https://space.bilibili.com/1">bishi UID:1</a></p>
+    <p><a href="https://space.bilibili.com/1276656"></a></p>
+
+
+    <p><a href="../server.htm">返回</a></p>
+
+    <p><a href="../old/index.html">回到旧版</a></p>
+
+    <div class="footer">
+        <div class="container">
+            <div id="Main">
+                <script type="text/javascript">
+                    window.onload=function()
+                    {
+                        window.requestAnimationFrame(getDate)
+                    }
+                        function getDate()
+                    {
+                        window.setTimeout(function(){
+                    
+                        window.requestAnimationFrame(getDate)
+                    
+                    },1000/2)
+                    
+                    var d=new Date();   
+                    
+                    var year=d.getFullYear()  
+                    
+                    var month=d.getMonth()+1;  
+                    
+                    var day=d.getDay()   
+                    
+                    var days=d.getDate() 
+                    
+                    var hour=d.getHours()   
+                    
+                    var minute=d.getMinutes()  
+                    
+                    var second=d.getSeconds()   
+                    
+                    if(month<10) month="0"+month
+                    
+                    if(days<10) days="0"+days
+                    
+                    if(hour<10) hour="0"+hour
+                    
+                    if(minute<10) minute="0"+minute
+                    
+                    if(second<10) second="0"+second
+                    
+                    var week=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六")
+                    
+                    var Tools=document.getElementById("Main")
+                    
+                    var da=year+" 年 "+month+" 月 "+days+" 日 "+week[day]+" "+hour+" : "+minute+" :"+second
+                    
+                    Tools.innerHTML=da
+                    
+                    }
+                    
+                    </script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

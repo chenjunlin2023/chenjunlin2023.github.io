@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>bilibili video</title>
+</head>
+<body>
+    <h4>file server -> bilibili video</h4>
+    <h1>————————————————————————————————————————————</h1>
+    <p><a href="https://www.bilibili.com/video/BV13D4y1J7uu/">本来挺喜欢牙刷的</a> | <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1CM411q75B">记录只因的第一天(极其无聊)</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1uK411y7E6">我居然在我的世界里做了自己的名字!</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1JA411o7wk">一年中最臭的时间(恼)</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1x24y1Y7hz">试图混入其中(继续套娃)其他up主接下去。</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1a14y1u7xE">全方块视觉盛宴！(差不多是)</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1U84y187r2">这311秒我录了31100分钟!</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1FG4y1j7ZW">这计算机不能要了</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1pv4y1v7Tt/">这220秒我录了2200分钟！(结尾有彩蛋)</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1Pg41147TQ">你干嘛~~嘿嘿哎哟(本人ikun)</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1RD4y1j7wv">2022年度总结——《2022再见，2023你好》</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1TM411y7M7">发现了一个好玩的游戏，随便玩了一下，不喜勿喷（本人ikun）</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV15v4y1B7Pk">有一个人前来买卧槽</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1tG4y177Rt">《华 强 买 瓜》_Unity</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1YG411N76K">《华强乱买瓜》</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1z84y147Uh/">鸡汤_Flower dance，献给我仅有的两个粉丝</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1Le4y1T7aF">鸡汤，但是乱剪</a>| <a>him一个</a></p>
+    <p><a href="https://www.bilibili.com/video/BV1DA411Q7WE/">新人up第一个视频</a>| <a>him一个</a></p>
+
+
+
+    <p><a href="../server.htm">返回</a></p>
+
+    <p><a href="../old/index.html">回到旧版</a></p>
+
+    <div class="footer">
+        <div class="container">
+            <div id="Main">
+                <script type="text/javascript">
+                    window.onload=function()
+                    {
+                        window.requestAnimationFrame(getDate)
+                    }
+                        function getDate()
+                    {
+                        window.setTimeout(function(){
+                    
+                        window.requestAnimationFrame(getDate)
+                    
+                    },1000/2)
+                    
+                    var d=new Date();   
+                    
+                    var year=d.getFullYear()  
+                    
+                    var month=d.getMonth()+1;  
+                    
+                    var day=d.getDay()   
+                    
+                    var days=d.getDate() 
+                    
+                    var hour=d.getHours()   
+                    
+                    var minute=d.getMinutes()  
+                    
+                    var second=d.getSeconds()   
+                    
+                    if(month<10) month="0"+month
+                    
+                    if(days<10) days="0"+days
+                    
+                    if(hour<10) hour="0"+hour
+                    
+                    if(minute<10) minute="0"+minute
+                    
+                    if(second<10) second="0"+second
+                    
+                    var week=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六")
+                    
+                    var Tools=document.getElementById("Main")
+                    
+                    var da=year+" 年 "+month+" 月 "+days+" 日 "+week[day]+" "+hour+" : "+minute+" :"+second
+                    
+                    Tools.innerHTML=da
+                    
+                    }
+                    
+                    </script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
