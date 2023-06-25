@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>server</title>
+    <meta charset="utf-8">
+    <title>server</title>
 </head>
-<body>
+
+<body background="ico/background.jpg">
     <h4>file server</h4>
     <h1>————————————————————————————————————————————</h1>
     <p><a href="minecraft.htm">minecraft</a></p>
     <p><a href="https://github.com">github</a></p>
     <p><a href="https://bilibili.com">bilibili</a></p>
     <p><a href="https://space.bilibili.com/1582926142/">B站主页</a></p>
-    <p><a href ="https://github.com/chenjunlin2023">github主页</a></p>
+    <p><a href="https://github.com/chenjunlin2023">github主页</a></p>
     <p><a href="https://github.com/chenjunlin2023/chenjunlin2023.github.io">项目地址</a></p>
     <p><a href="https://github.com/dotnetcore/FastGithub">fastgithub项目地址</a></p>
     <p><a href="bilibili/Bilibilivideo.htm">bilibili video</a></p>
@@ -26,57 +28,56 @@
         <div class="container">
             <div id="Main">
                 <script type="text/javascript">
-                    window.onload=function()
-                    {
+                    window.onload = function () {
                         window.requestAnimationFrame(getDate)
                     }
-                        function getDate()
-                    {
-                        window.setTimeout(function(){
-                    
-                        window.requestAnimationFrame(getDate)
-                    
-                    },1000/2)
-                    
-                    var d=new Date();   
-                    
-                    var year=d.getFullYear()  
-                    
-                    var month=d.getMonth()+1;  
-                    
-                    var day=d.getDay()   
-                    
-                    var days=d.getDate() 
-                    
-                    var hour=d.getHours()   
-                    
-                    var minute=d.getMinutes()  
-                    
-                    var second=d.getSeconds()   
-                    
-                    if(month<10) month="0"+month
-                    
-                    if(days<10) days="0"+days
-                    
-                    if(hour<10) hour="0"+hour
-                    
-                    if(minute<10) minute="0"+minute
-                    
-                    if(second<10) second="0"+second
-                    
-                    var week=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六")
-                    
-                    var Tools=document.getElementById("Main")
-                    
-                    var da=year+" 年 "+month+" 月 "+days+" 日 "+week[day]+" "+hour+" : "+minute+" :"+second
-                    
-                    Tools.innerHTML=da
-                    
+                    function getDate() {
+                        window.setTimeout(function () {
+
+                            window.requestAnimationFrame(getDate)
+
+                        }, 1000 / 2)
+
+                        var d = new Date();
+
+                        var year = d.getFullYear()
+
+                        var month = d.getMonth() + 1;
+
+                        var day = d.getDay()
+
+                        var days = d.getDate()
+
+                        var hour = d.getHours()
+
+                        var minute = d.getMinutes()
+
+                        var second = d.getSeconds()
+
+                        if (month < 10) month = "0" + month
+
+                        if (days < 10) days = "0" + days
+
+                        if (hour < 10) hour = "0" + hour
+
+                        if (minute < 10) minute = "0" + minute
+
+                        if (second < 10) second = "0" + second
+
+                        var week = new Array("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六")
+
+                        var Tools = document.getElementById("Main")
+
+                        var da = year + " 年 " + month + " 月 " + days + " 日 " + week[day] + " " + hour + " : " + minute + " :" + second
+
+                        Tools.innerHTML = da
+
                     }
-                    
-                    </script>
+
+                </script>
             </div>
         </div>
     </div>
 </body>
+
 </html>
